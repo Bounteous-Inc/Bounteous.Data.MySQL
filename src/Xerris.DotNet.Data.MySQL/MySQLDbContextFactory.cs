@@ -17,4 +17,5 @@ public abstract class MySqlDbContextFactory<T> : DbContextFactory<T> where T : D
             .EnableDetailedErrors()
             .Options;
     }
+    
 }
