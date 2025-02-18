@@ -8,7 +8,7 @@ on:
 jobs:
   publish:
     if: github.event.pull_request.merged == true
-    uses: xerris/xerris-common-workflows/.github/workflows/build-and-publish-to-nuget.yml@main
+    uses: Bounteous-Inc/bounteous-dotnet-common-workflows/.github/workflows/build-and-publish-to-nuget.yml@main
     with:
       csproj-path: './src/Bounteous.Data.MySQL/Bounteous.Data.MySQL.csproj'
       nuget-package-name: 'Bounteous.Data.MySQL'
