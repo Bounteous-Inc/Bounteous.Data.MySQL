@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace Xerris.DotNet.Data.MySql;
+namespace Bounteous.Data.MySQL;
 
 public abstract class MySqlDbContextFactory<T> : DbContextFactory<T> where T : DbContext
 {

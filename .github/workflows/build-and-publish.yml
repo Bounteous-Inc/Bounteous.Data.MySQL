@@ -1,4 +1,4 @@
-name: Publish Xerris.DotNet.Data.MySQL
+name: Bounteous.Data.MySQL
 
 on:
   pull_request:
@@ -10,8 +10,8 @@ jobs:
     if: github.event.pull_request.merged == true
     uses: xerris/xerris-common-workflows/.github/workflows/build-and-publish-to-nuget.yml@main
     with:
-      csproj-path: './src/Xerris.DotNet.Data.MySQL/Xerris.DotNet.Data.MySQL.csproj'
-      nuget-package-name: 'xerris.dotnet.data.mysql'
+      csproj-path: './src/Bounteous.Data.MySQL/Bounteous.Data.MySQL.csproj'
+      nuget-package-name: 'Bounteous.Data.MySQL'
       dotnet-version: '8.0.x'
       release-path: 'net8.0'
     secrets:
