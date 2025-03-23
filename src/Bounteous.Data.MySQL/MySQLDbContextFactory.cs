@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Bounteous.Data.MySQL;
 
-public abstract class MySqlDbContextFactory<T> : DbContextFactory<T> where T : DbContext
+public abstract class MySqlDbContextFactory<T> : DbContextFactory<T> where T : IDbContext
 {
     public MySqlDbContextFactory(IConnectionBuilder connectionBuilder, IDbContextObserver observer) 
         : base(connectionBuilder, observer)
