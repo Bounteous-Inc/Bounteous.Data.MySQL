@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 		.github\workflows\build-and-publish.yml = .github\workflows\build-and-publish.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bounteous.Data.MySQL.Tests", "src\Bounteous.Data.MySQL.Tests\Bounteous.Data.MySQL.Tests.csproj", "{F6501D1B-6F2C-45A0-BCF5-15CFC252C882}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{42B44759-E1AB-4D1E-9CD5-6A49766DD9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42B44759-E1AB-4D1E-9CD5-6A49766DD9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42B44759-E1AB-4D1E-9CD5-6A49766DD9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6501D1B-6F2C-45A0-BCF5-15CFC252C882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6501D1B-6F2C-45A0-BCF5-15CFC252C882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6501D1B-6F2C-45A0-BCF5-15CFC252C882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6501D1B-6F2C-45A0-BCF5-15CFC252C882}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1AC18BC1-E8FF-4719-8D20-CB6484BB2678} = {090740F2-87A6-47A3-8262-A7F70474B429}
